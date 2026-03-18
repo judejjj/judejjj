@@ -3,7 +3,7 @@
 I'm a software developer focused on building practical backend systems, mobile applications, and exploring machine learning integrations.
 
 ### 🔭 Currently Working On
-* Developing a custom audio classifier to detect specific environmental sounds (like laughter and clapping) for my final year project.
+* Developing a custom audio classifier to detect specific environmental sounds (like laughter and clapping)
 * Architecting a decentralized, 24/7 private server using cloud infrastructure to host personal storage solutions.
 
 ### 💻 Some Things I've Built
