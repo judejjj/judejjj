@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:00F0FF&height=200&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:FF00E5,50:8A2BE2,100:00F0FF&height=180&section=header&text=JUDE%20JOBY%20JOSEPH&fontSize=48&fontColor=0D1117&fontAlignY=55&animation=twinkling" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&lines=SYSTEM+ONLINE...;INITIALIZING+JUDE_JOBY_JOSEPH.exe;BUILDING+INTELLIGENT+SYSTEMS;OPEN+TO+WORK+%3A%3A+STANDBY+MODE" alt="Typing SVG" />
 
@@ -16,16 +16,12 @@
 > whoami
 ```
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  UNIT: Jude Joby Joseph                                      │
-│  CLASS: MCA Graduate · Software Engineer · ML Researcher     │
-│  STATUS: 🟢 ONLINE — Open to Work                             │
-│  DEPLOYMENT TARGETS: IT Support · Systems Admin · AI/Software │
-│                       Trainee Roles                           │
-│  ORIGIN: Curiosity in Cybersecurity → Building Secure,        │
-│          Intelligent Systems                                  │
-└─────────────────────────────────────────────────────────────┘
+```yaml
+unit: Jude Joby Joseph
+class: MCA Graduate · Software Engineer · ML Researcher
+status: 🟢 ONLINE — Open to Work
+deployment_targets: IT Support · Systems Admin · AI/Software Trainee
+origin: Curiosity in Cybersecurity → Building Secure, Intelligent Systems
 ```
 
 <div align="center">
@@ -109,6 +105,22 @@ Educational management system built to unify administration across combined depa
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=judejjj&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=c9d1d9" width="48%" />
 
 </div>
+
+## 👾 PACMAN INTERCEPT
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/judejjj/judejjj/output/pacman-contribution-graph.svg" width="100%" />
+</div>
+
+> ⚙️ **One-time setup:** add the **[IldarMukhametov/pacman-contribution-graph](https://github.com/IldarMukhametov/pacman-contribution-graph)** GitHub Action to your `judejjj/judejjj` repo — it auto-generates Pacman eating your real contribution graph, refreshed daily. Until it's set up, this box stays empty.
+
+## 🪐 3D CONTRIBUTION FIELD
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/judejjj/judejjj/output/github-contribution-grid-3d-mode.svg" width="100%" />
+</div>
+
+> ⚙️ **One-time setup:** add the **[yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)** Action — turns your contribution graph into a rotating 3D skyline. Same idea as the Pacman widget: set it up once, it updates itself forever.
 
 ## 🔗 OPEN CHANNELS
 
