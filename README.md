@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:00F0FF&height=200&section=header&animation=fadeIn" width="100%"/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&lines=SYSTEM+ONLINE...;INITIALIZING+JUDE_JOBY_JOSEPH.exe;BUILDING+INTELLIGENT+SYSTEMS;OPEN+TO+WORK+%3A%3A+STANDBY+MODE" alt="Typing SVG" />
 
 <br/>
