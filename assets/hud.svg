@@ -1,0 +1,176 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nebulaBg" cx="50%" cy="45%" r="95%">
+      <stop offset="0%" stop-color="#26124f"/>
+      <stop offset="55%" stop-color="#120a2e"/>
+      <stop offset="100%" stop-color="#030109"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2fd6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff2fd6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a13bff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a13bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd23b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffd23b" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="moonGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffe9d9"/>
+      <stop offset="50%" stop-color="#ff8f6b"/>
+      <stop offset="100%" stop-color="#5a1a3a"/>
+    </radialGradient>
+
+    <radialGradient id="wormholeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#00F0FF"/>
+      <stop offset="55%" stop-color="#FF00E5"/>
+      <stop offset="100%" stop-color="#a13bff" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blurBig" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="glowSoft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowStrong" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#nebulaBg)"/>
+
+  <!-- vivid drifting nebula clouds, pulsing -->
+  <ellipse cx="220" cy="110" rx="280" ry="150" fill="url(#nebulaPink)" filter="url(#blurBig)">
+    <animate attributeName="cx" values="220;320;220" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="880" cy="230" rx="320" ry="160" fill="url(#nebulaCyan)" filter="url(#blurBig)">
+    <animate attributeName="cx" values="880;760;880" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="80" rx="250" ry="120" fill="url(#nebulaPurple)" filter="url(#blurBig)">
+    <animate attributeName="cy" values="80;140;80" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="450" cy="250" rx="200" ry="100" fill="url(#nebulaGold)" filter="url(#blurBig)">
+    <animate attributeName="cx" values="450;550;450" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- aurora ribbons -->
+  <g opacity="0.55" filter="url(#glowSoft)">
+    <path d="M -50,20 Q 250,-30 550,20 T 1250,10" fill="none" stroke="#00F0FF" stroke-width="3">
+      <animate attributeName="d" values="M -50,20 Q 250,-30 550,20 T 1250,10; M -50,10 Q 250,40 550,-10 T 1250,25; M -50,20 Q 250,-30 550,20 T 1250,10" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -50,45 Q 300,5 600,45 T 1250,35" fill="none" stroke="#FF00E5" stroke-width="3">
+      <animate attributeName="d" values="M -50,45 Q 300,5 600,45 T 1250,35; M -50,35 Q 300,65 600,15 T 1250,50; M -50,45 Q 300,5 600,45 T 1250,35" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- dense starfield -->
+  <g fill="#ffffff">
+    <circle cx="70" cy="40" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="270" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="55" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="290" r="1.2"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="35" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="280" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="50" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="290" r="1.2"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="70" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="180" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="150" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="180" r="1.2"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="30" r="1.3"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="250" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="990" cy="140" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="200" r="1.3"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- meteor shower: several comets, staggered -->
+  <g stroke="#eaffff" stroke-linecap="round" opacity="0">
+    <line x1="0" y1="0" x2="90" y2="0" stroke-width="3" opacity="0.95">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="0s"/>
+      <animateMotion path="M -140,50 L 1340,240" dur="3s" repeatCount="indefinite" begin="0s"/>
+    </line>
+  </g>
+  <g stroke="#ffe0fb" stroke-linecap="round">
+    <line x1="0" y1="0" x2="60" y2="0" stroke-width="2.4" opacity="0.85">
+      <animate attributeName="opacity" values="0;0.9;0" dur="4s" repeatCount="indefinite" begin="1.4s"/>
+      <animateMotion path="M -100,180 L 1300,20" dur="4s" repeatCount="indefinite" begin="1.4s"/>
+    </line>
+  </g>
+  <g stroke="#d0f0ff" stroke-linecap="round">
+    <line x1="0" y1="0" x2="45" y2="0" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="0;0.8;0" dur="2.4s" repeatCount="indefinite" begin="2.6s"/>
+      <animateMotion path="M -80,260 L 1280,90" dur="2.4s" repeatCount="indefinite" begin="2.6s"/>
+    </line>
+  </g>
+
+  <!-- rotating wormhole portal -->
+  <g transform="translate(870,110)">
+    <circle r="46" fill="url(#wormholeGrad)" filter="url(#glowStrong)" opacity="0.9">
+      <animate attributeName="r" values="40;50;40" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      <ellipse rx="70" ry="26" fill="none" stroke="#00F0FF" stroke-width="2.4" opacity="0.85"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="90" to="-270" dur="8s" repeatCount="indefinite"/>
+      <ellipse rx="70" ry="26" fill="none" stroke="#FF00E5" stroke-width="2" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- small ship zipping past the wormhole -->
+  <g>
+    <g>
+      <path d="M -14,0 L 12,-5 L 22,0 L 12,5 Z" fill="#dfe7ff" stroke="#00F0FF" stroke-width="1"/>
+      <circle cx="-6" cy="0" r="2" fill="#FF00E5"><animate attributeName="opacity" values="1;0.3;1" dur="0.4s" repeatCount="indefinite"/></circle>
+      <animateMotion path="M 700,220 Q 850,140 1000,200 T 1300,150" dur="7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0" additive="sum"/>
+    </g>
+  </g>
+
+  <!-- distant alien moon, lower left this time for balance -->
+  <g transform="translate(150,255)">
+    <circle r="40" fill="url(#moonGrad)" filter="url(#glowSoft)"/>
+    <circle cx="-12" cy="-8" r="6" fill="#7a2f4f" opacity="0.5"/>
+    <circle cx="10" cy="12" r="9" fill="#7a2f4f" opacity="0.4"/>
+    <circle cx="15" cy="-14" r="4" fill="#7a2f4f" opacity="0.5"/>
+  </g>
+
+  <!-- dish antenna, ground silhouette right side -->
+  <g transform="translate(1000,300)">
+    <path d="M -60,20 L 60,20 L 30,-10 L -30,-10 Z" fill="#0a0f18"/>
+    <line x1="0" y1="-10" x2="0" y2="-70" stroke="#0a0f18" stroke-width="8"/>
+    <path d="M -55,-70 A 55,30 0 0 1 55,-70" fill="none" stroke="#0a0f18" stroke-width="8"/>
+    <line x1="0" y1="-70" x2="0" y2="-105" stroke="#0a0f18" stroke-width="5"/>
+    <circle cx="0" cy="-108" r="4" fill="#00F0FF" filter="url(#glowStrong)"/>
+
+    <circle cx="0" cy="-108" r="0" fill="none" stroke="#00F0FF" stroke-width="2.4" opacity="0.95">
+      <animate attributeName="r" values="0;150" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.95;0" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-108" r="0" fill="none" stroke="#FF00E5" stroke-width="2.4" opacity="0.85">
+      <animate attributeName="r" values="0;150" dur="2.8s" repeatCount="indefinite" begin="0.9s"/>
+      <animate attributeName="opacity" values="0.85;0" dur="2.8s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <circle cx="0" cy="-108" r="0" fill="none" stroke="#B14CFF" stroke-width="2.4" opacity="0.75">
+      <animate attributeName="r" values="0;150" dur="2.8s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="opacity" values="0.75;0" dur="2.8s" repeatCount="indefinite" begin="1.8s"/>
+    </circle>
+  </g>
+
+  <text x="600" y="315" text-anchor="middle" font-family="Consolas, monospace" font-weight="bold" font-size="17" fill="#8be9fd" letter-spacing="5" opacity="0.95" filter="url(#glowSoft)">TRANSMITTING ACROSS THE VOID</text>
+</svg>
