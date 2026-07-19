@@ -103,7 +103,7 @@ Educational management system built to unify administration across combined depa
 
 </div>
 
-> ⚙️ **Why this kept breaking:** the old stats widget (`github-readme-stats.vercel.app`) is a shared free service that's been unstable for months — it's a known, widespread issue, not something wrong with your setup. The fix below generates your stats as a **file stored in your own repo** instead of pinging a live third-party server every time someone visits — so it can't go down. Full YAML workflow at the bottom of this message.
+
 
 ## 🚀 GALAGA STRIKE
 
@@ -113,7 +113,7 @@ Educational management system built to unify administration across combined depa
   <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/judejjj/judejjj/output/galaga-contribution-graph.svg" width="100%">
 </picture>
 
-> ⚙️ **One-time setup** (the earlier repo I linked was wrong — corrected below): use **[abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)**. Full YAML workflow provided at the bottom of this message.
+
 
 ## 🪐 3D CONTRIBUTION FIELD
 
@@ -125,7 +125,6 @@ Educational management system built to unify administration across combined depa
 
 
 
-> Note: these are third-party open-source Actions maintained outside Anthropic — occasionally their exact input names change with new versions. If a workflow fails on first run, open the "Actions" tab in your repo, click the failed run, and check the error — it'll usually tell you exactly which parameter needs adjusting. Worth checking each project's own README on GitHub for the latest syntax before pasting.
 
 ## 🔗 OPEN CHANNELS
 
