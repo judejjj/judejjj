@@ -121,7 +121,7 @@ Educational management system built to unify administration across combined depa
 <img src="https://raw.githubusercontent.com/judejjj/judejjj/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 </div>
 
-> ⚙️ **One-time setup:** add the **[yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)** Action — turns your contribution graph into a rotating 3D skyline. Same idea as the Pacman widget: set it up once, it updates itself forever.
+
 
 
 
