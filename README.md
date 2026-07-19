@@ -105,12 +105,12 @@ Educational management system built to unify administration across combined depa
 
 > ⚙️ **Why this kept breaking:** the old stats widget (`github-readme-stats.vercel.app`) is a shared free service that's been unstable for months — it's a known, widespread issue, not something wrong with your setup. The fix below generates your stats as a **file stored in your own repo** instead of pinging a live third-party server every time someone visits — so it can't go down. Full YAML workflow at the bottom of this message.
 
-## 👾 PACMAN INTERCEPT
+## 🚀 GALAGA STRIKE
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/judejjj/judejjj/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/judejjj/judejjj/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/judejjj/judejjj/output/pacman-contribution-graph.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/judejjj/judejjj/output/galaga-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/judejjj/judejjj/output/galaga-contribution-graph.svg">
+  <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/judejjj/judejjj/output/galaga-contribution-graph.svg" width="100%">
 </picture>
 
 > ⚙️ **One-time setup** (the earlier repo I linked was wrong — corrected below): use **[abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)**. Full YAML workflow provided at the bottom of this message.
