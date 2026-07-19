@@ -99,11 +99,9 @@ Educational management system built to unify administration across combined depa
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/judejjj/judejjj/main/assets/metrics.svg" width="100%" />
+<img src="./assets/hud.svg" width="100%" />
 
 </div>
-
-
 
 ## 🚀 GALAGA STRIKE
 
@@ -113,18 +111,11 @@ Educational management system built to unify administration across combined depa
   <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/judejjj/judejjj/output/galaga-contribution-graph.svg" width="100%">
 </picture>
 
-
-
 ## 🪐 3D CONTRIBUTION FIELD
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/judejjj/judejjj/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 </div>
-
-
-
-
-
 
 ## 🔗 OPEN CHANNELS
 
